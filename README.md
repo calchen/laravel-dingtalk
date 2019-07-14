@@ -51,6 +51,8 @@ $app->register(Calchen\LaravelDingTalk\ServiceProvider::class);
 
 todo
 
+会逐步增加 OAuth 相关的中间件、控制器及路由
+
 
 更多 SDK 的具体使用请参考：https://docs.easydingtalk.org
 

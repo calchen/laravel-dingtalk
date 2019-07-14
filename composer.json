@@ -1,0 +1,30 @@
+{
+    "name": "calchen\/laravel-dingtalk",
+    "description": "钉钉 SDK for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "陈恺垣",
+            "email": "contact@chenky.com"
+        }
+    ],
+    "require": {
+        "illuminate/container": "^5.1",
+        "mingyoung/dingtalk": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Calchen\\LaravelDingTalk\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Calchen\\LaravelDingTalk\\ServiceProvider"
+            ],
+            "aliases": {
+                "EasyDingTalk": "Calchen\\LaravelDingTalk\\Facade"
+            }
+        }
+    }
+}

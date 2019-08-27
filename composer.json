@@ -1,5 +1,5 @@
 {
-    "name": "calchen\/laravel-dingtalk",
+    "name": "calchen/laravel-dingtalk",
     "description": "钉钉 SDK for Laravel",
     "license": "MIT",
     "authors": [
@@ -14,16 +14,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Calchen\\LaravelDingTalk\\": "src"
+            "Calchen\\LaravelDingtalk\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Calchen\\LaravelDingTalk\\ServiceProvider"
+                "Calchen\\LaravelDingtalk\\DingtalkServiceProvider"
             ],
             "aliases": {
-                "EasyDingTalk": "Calchen\\LaravelDingTalk\\Facade"
+                "EasyDingtalk": "Calchen\\LaravelDingtalk\\Facade"
             }
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Calchen\LaravelDingTalk;
+namespace Calchen\LaravelDingtalk;
 
 use EasyDingTalk\Application;
 use Illuminate\Support\Facades\App;

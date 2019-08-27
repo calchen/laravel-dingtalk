@@ -1,6 +1,6 @@
 <?php
 
-namespace Calchen\LaravelDingTalk;
+namespace Calchen\LaravelDingtalk;
 
 use EasyDingTalk\Application;
 use Illuminate\Foundation\Application as LaravelApplication;
@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
 
-class ServiceProvider extends LaravelServiceProvider
+class DingtalkServiceProvider extends LaravelServiceProvider
 {
     /**
      * Boot the provider.
@@ -22,7 +22,7 @@ class ServiceProvider extends LaravelServiceProvider
      */
     protected function setupConfig()
     {
-        $source = realpath(__DIR__.'/config.php');
+        $source = realpath(__DIR__.'/../config/dingtalk.php');
 
         if ($this->app instanceof LaravelApplication && $this->app->runningInConsole()) {
             $this->publishes([$source => config_path('dingtalk.php')], 'laravel-dingtalk');

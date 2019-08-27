@@ -22,6 +22,9 @@ return [
     */
     'app_secret' => env('DINGTALK_APP_SECRET'),
 
+    /**
+     * 默认使用 Laravel 的 Cache 组件作为缓存
+     */
     'use_laravel_cache' => true,
 
     /*

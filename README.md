@@ -16,7 +16,7 @@
 
 > [English](https://github.com/calchen/laravel-dingtalk/blob/master/README_en.md)
 
-基于 [mingyoung/dingtalk](https://github.com/mingyoung/dingtalk) 封装的钉钉 SOK
+基于 [mingyoung/dingtalk](https://github.com/mingyoung/dingtalk) 封装的钉钉 SDK
 
 ## 安装
 

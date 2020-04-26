@@ -16,8 +16,6 @@
 
 > [中文](https://github.com/calchen/laravel-dingtalk/blob/master/README.md)
 
-This is a Flysystem adapter for the Aliyun OSS ~2.3.0
-
 Depend on [apollopy/flysystem-aliyun-oss](https://github.com/apollopy/flysystem-aliyun-oss)
 
 ## Installing

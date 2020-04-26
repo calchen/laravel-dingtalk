@@ -16,7 +16,7 @@
 
 > [中文](https://github.com/calchen/laravel-dingtalk/blob/master/README.md)
 
-Depend on [apollopy/flysystem-aliyun-oss](https://github.com/apollopy/flysystem-aliyun-oss)
+Depend on [mingyoung/dingtalk](https://github.com/mingyoung/dingtalk)
 
 ## Installing
 

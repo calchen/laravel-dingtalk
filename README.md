@@ -40,7 +40,7 @@ Calchen\LaravelDingtalk\AliyunOssServiceProvider::class,
 
 再完成加载配置之后还需要将配置文件发布出来：
 ```shell
-php artisan vendor:publish --provider="Calchen\LaravelDingtalk\AliyunOssServiceProvider"
+php artisan vendor:publish --provider="Calchen\LaravelDingtalk\DingtalkServiceProvider"
 ```
 
 ### Lumen

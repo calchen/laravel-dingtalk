@@ -39,7 +39,7 @@ Calchen\LaravelDingtalk\DingtalkServiceProvider::class,
 
 Publish configuration file from `vendor/calchen/laravel-dingtalk/config/dingtalk.php` to `config/dingtalk.php`
 ```shell
-php artisan vendor:publish --provider="Calchen\LaravelDingtalk\AliyunOssServiceProvider"
+php artisan vendor:publish --provider="Calchen\LaravelDingtalk\DingtalkServiceProvider"
 ```
 
 ### Lumen
